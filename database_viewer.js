@@ -11,7 +11,12 @@ Description:	Implements the server-side code for Fitness Application.
 Boilerplate Code from the lectures to set up the
 express-handlebars-bodyParser-sessions-request system.
 ***************************************************************************************/
+
+//This code handles server-side. It still isn't written well, but at
+//least there's separation of concerns.
+
 var express = require('express');
+
 var app = express();
 var handlebars = require('express-handlebars').create({defaultLayout:'main'});
 
