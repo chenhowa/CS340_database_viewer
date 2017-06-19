@@ -22,8 +22,7 @@ project. Other than that, the languages are as follows:
   programming in the future.
   
 ## File Overview
-* database_viewer.js - original version. This file contained logic from the model, the view, and the controller under the
-  MVC paradigm.
+* database_viewer.js - original version. This file sets up the server operations for the web application
 * dbcon.js - configuration file for the database. Originally configured to use a MySQL database on a Oregon State University server. I'll
   likely have to set up a database on my own computer in the future.
 * package.json - currently utilizes the following packages:
@@ -35,7 +34,5 @@ project. Other than that, the languages are as follows:
     6. mysql
     7. request
     8. workerjs
-* public/
-    1. Hello
-   
-* views/
+* public/ - Javascript and CSS files that are called from database_viewer.js and from views/
+* views/ - Express-Handlbars view files that are rendered by the server logic in database_viewer.js
