@@ -1,12 +1,12 @@
 {
-  "name": "hello-world",
+  "name": "database_viewer.js",
   "version": "1.0.0",
-  "description": "Hello world with express and node.js",
-  "main": "app.js",
+  "description": "web application for allowing users to view and modify a relational database",
+  "main": "database_viewer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "OSU",
+  "author": "Howard Chen",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.13.3",
