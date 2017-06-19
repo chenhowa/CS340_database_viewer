@@ -25,6 +25,10 @@ project. Other than that, the languages are as follows:
 * database_viewer.js - original version. This file sets up the server operations for the web application
 * dbcon.js - configuration file for the database. Originally configured to use a MySQL database on a Oregon State University server. I'll
   likely have to set up a database on my own computer in the future.
+* model.js - contains basic data for web application tables.
+* view.js - creates DOM objects to be rendered.
+* controller.js - organizes the DOM objects and attaches even handlers to them.
+* tables.js - defines and exports functions for creating table DOM elements.
 * package.json - currently utilizes the following packages:
     1. body-parser
     2. express
