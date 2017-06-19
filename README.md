@@ -15,7 +15,7 @@ project. Other than that, the languages are as follows:
 * Pure Javascript, using built-in data structures and a functional-style of programming.
 * Pure Javascript, using the Model-View-Controller design pattern (perhaps this can be combined with the previous point).
 * Pure Javascript, but with the aid of solid, widely-used libraries--If I can find them. I have little experience with finding and using
-  non-standard libraries in any language. React, and some sort of testing framework, maybe?
+  non-standard libraries in any language. React, and some sort of testing framework, maybe? Also things like libraries for assertions, enums, and pattern matching, to make testing and error-handling better than native Javascript provides for.
 * A language that compiles (transpiles?) to Jasascript, like Elm or ClojureScript. Ideally it would be almost a purely functional
   language, to teach me something new.
 * A language like Rust for at least the back-end. Rust is just a language I hope to get good at using, and to perhaps use in systems
